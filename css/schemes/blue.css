@@ -1,10 +1,11 @@
+/* Light Colors */
 :root {
   --background: hsl(189, 48%, 73%); /* Catppuccin Frappe Sky */
   --text-color: hsl(183, 74%, 30%); /* Catppuccin Latte Teal (-5% Luminance) */
   --heading-color: hsl(183, 74%, 35%); /* Catppuccin Latte Teal */
 }
 
-
+/* Dark Colors */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
