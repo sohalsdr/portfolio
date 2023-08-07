@@ -1,0 +1,14 @@
+:root {
+  --background: hsl(239, 66%, 84%); /* Catppuccin Frappe Lavender */
+  --text-color: hsl(231, 97%, 68%); /* Catppuccin Latte Lavender (-4% Luminance)*/
+  --heading-color: hsl(231, 97%, 72%); /* Catppuccin Latte Lavender */
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
+    --text-color: hsl(239, 66%, 84%); /* Catppuccin Frappe Lavender */
+    --heading-color: hsl(231, 97%, 72%); /* Catppuccin Latte Lavender */
+  }
+}
