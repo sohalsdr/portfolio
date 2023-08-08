@@ -1,0 +1,15 @@
+/* Light Colors */
+:root {
+  --background: hsl(40, 62%, 73%); /* Catppuccin Frappe Yellow */
+  --text-color: hsl(35, 77%, 40%); /* Catppuccin Latte Yellow (-9% Luminance) */
+  --heading-color: hsl(35, 77%, 45%); /* Catppuccin Latte Yellow (-4% Luminance) */
+}
+
+/* Dark Colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
+    --text-color: hsl(40, 62%, 73%); /* Catppuccin Frappe Yellow */
+    --heading-color: hsl(35, 77%, 49%); /* Catppuccin Latte Yellow*/
+  }
+}

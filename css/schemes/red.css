@@ -10,6 +10,6 @@
   :root {
     --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
     --text-color: hsl(358, 66%, 76%); /* Catppuccin Frappe Maroon */
-    --heading-color: hsl(347, 87%, 42%); /* Catppuccin Latte Red (-2% Luminance)*/
+    --heading-color: hsl(347, 87%, 54%); /* Catppuccin Latte Red (+10% Luminance)*/
   }
 }
