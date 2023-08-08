@@ -8,8 +8,8 @@
 /* Dark Colors */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
+    --background: hsl(229, 19%, 23%); /* Catppuccin Frappe Base */
     --text-color: hsl(189, 48%, 73%); /* Catppuccin Frappe Sky */
-    --heading-color: hsl(183, 74%, 35%); /* Catppuccin Latte Teal */
+    --heading-color: hsl(183, 74%, 45%); /* Catppuccin Latte Teal */
   }
 }

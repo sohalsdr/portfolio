@@ -8,7 +8,7 @@
 /* Dark Colors */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: hsl(240, 21%, 15%); /* Catppuccin Mocha Base */
+    --background: hsl(229, 19%, 23%); /* Catppuccin Frappe Base */
     --text-color: hsl(227, 70%, 92%); /* Catppuccin Frappe Text (+5% Luminance) */
     --heading-color: hsl(227, 44%, 80%); /* Catppuccin Frappe Subtext1 */
   }

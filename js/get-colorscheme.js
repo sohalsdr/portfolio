@@ -2,7 +2,7 @@
 
 function getColorscheme() {
   // Array of available colorschemes
-  const schemes = ["red", "blue", "green", "yellow", "mono"];
+  const schemes = ["red", "blue", "green", "yellow", "mono", "pink"];
   // Generates a random number between 0 (inclusive) and the length of the schemes array (exclusive)
   const randomNumber = Math.floor(Math.random() * schemes.length);
   // Writes the stylesheet link onto the page via a template string

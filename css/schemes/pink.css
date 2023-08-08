@@ -1,0 +1,15 @@
+/* Light Colors */
+:root {
+  --background: hsl(10, 57%, 88%); /* Catppuccin Frappe Rosewater */
+  --text-color: hsl(0, 60%, 60%); /* Catppuccin Latte Flamingo (-7% Luminance) */
+  --heading-color: hsl(0, 60%, 65%); /* Catppuccin Latte Flamingo (-2% Luminance) */
+}
+
+/* Dark Colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(229, 19%, 23%); /* Catppuccin Frappe Base */
+    --text-color: hsl(0, 59%, 84%); /* Catppuccin Frappe Flamingo */
+    --heading-color: hsl(0, 60%, 70%); /* Catppuccin Latte Flamingo */
+  }
+}
