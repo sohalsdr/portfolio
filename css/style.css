@@ -22,8 +22,6 @@ body {
     font-weight: 600;
 }
 
-
-
 strong, b {
   color: var(--heading-color)
 }
@@ -190,15 +188,13 @@ figure.fullwidth figcaption {
     margin-right: 24%;
 }
 
-/* Links: replicate underline that clears descenders */
 a:link,
 a:visited {
     color: var(--heading-color);
 }
 
-.no-tufte-underline:link {
-    background: unset;
-    text-shadow: unset;
+a:hover {
+    color: var(--text-color)
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -308,6 +304,8 @@ span.newthought {
     font-variant: small-caps;
     font-size: 1.2em;
 }
+
+
 
 input.margin-toggle {
     display: none;
